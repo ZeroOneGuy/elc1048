@@ -99,7 +99,7 @@ void tarefa_periodica(void)
             contador = 0;
             
             // Executa a ação desejada a cada 100 ms
-            
+            port_pin_set_output_level(LED_0_PIN, !LED_0_ACTIVE);
             // ...
         }
         
